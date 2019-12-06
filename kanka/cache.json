@@ -91,7 +91,7 @@
                         "section": "appearance"
                     }
                 ],
-                "sync": "2019-12-05T21:34:57.135217Z"
+                "sync": "2019-12-06T18:07:19.528292Z"
             },
             "type": "Orange Wizard",
             "updated_at": "2019-08-21T04:56:55.000000Z",
@@ -157,7 +157,7 @@
                         "section": "appearance"
                     }
                 ],
-                "sync": "2019-12-05T21:34:57.135657Z"
+                "sync": "2019-12-06T18:07:19.528812Z"
             },
             "type": "Black Wizard",
             "updated_at": "2019-08-21T04:59:07.000000Z",
@@ -185,7 +185,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.135946Z"
+                "sync": "2019-12-06T18:07:19.529114Z"
             },
             "type": "NPC",
             "updated_at": "2019-08-19T15:25:57.000000Z",
@@ -217,7 +217,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.136197Z"
+                "sync": "2019-12-06T18:07:19.529302Z"
             },
             "type": "Player Character",
             "updated_at": "2019-07-29T18:10:39.000000Z",
@@ -248,7 +248,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.136398Z"
+                "sync": "2019-12-06T18:07:19.529500Z"
             },
             "type": "Yellow Wizard",
             "updated_at": "2019-08-21T04:55:01.000000Z",
@@ -280,7 +280,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.136594Z"
+                "sync": "2019-12-06T18:07:19.529680Z"
             },
             "type": "Player Character",
             "updated_at": "2019-07-29T16:19:58.000000Z",
@@ -312,7 +312,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.136793Z"
+                "sync": "2019-12-06T18:07:19.529879Z"
             },
             "type": "Player Character",
             "updated_at": "2019-07-29T17:42:05.000000Z",
@@ -344,7 +344,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.136974Z"
+                "sync": "2019-12-06T18:07:19.530062Z"
             },
             "type": "Orange Wizard",
             "updated_at": "2019-08-21T04:57:51.000000Z",
@@ -376,7 +376,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.137172Z"
+                "sync": "2019-12-06T18:07:19.530240Z"
             },
             "type": "Red Wizard",
             "updated_at": "2019-08-21T04:57:03.000000Z",
@@ -406,7 +406,7 @@
             "title": "The stupid idiot",
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.137353Z"
+                "sync": "2019-12-06T18:07:19.530423Z"
             },
             "type": "NPC",
             "updated_at": "2019-11-30T14:05:06.000000Z",
@@ -436,7 +436,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.137550Z"
+                "sync": "2019-12-06T18:07:19.530638Z"
             },
             "type": "NPC",
             "updated_at": "2019-07-29T07:26:15.000000Z",
@@ -467,7 +467,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.137728Z"
+                "sync": "2019-12-06T18:07:19.530841Z"
             },
             "type": "Orange Wizard",
             "updated_at": "2019-08-21T04:59:15.000000Z",
@@ -495,7 +495,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.137905Z"
+                "sync": "2019-12-06T18:07:19.531021Z"
             },
             "type": "NPC",
             "updated_at": "2019-08-21T04:59:47.000000Z",
@@ -523,7 +523,7 @@
             "title": "Head of the Polaris Council",
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.138093Z"
+                "sync": "2019-12-06T18:07:19.531199Z"
             },
             "type": "NPC",
             "updated_at": "2019-08-21T04:59:39.000000Z",
@@ -554,7 +554,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.138274Z"
+                "sync": "2019-12-06T18:07:19.531376Z"
             },
             "type": "Yellow Wizard",
             "updated_at": "2019-08-21T04:52:46.000000Z",
@@ -585,7 +585,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.138452Z"
+                "sync": "2019-12-06T18:07:19.531554Z"
             },
             "type": "White Wizard",
             "updated_at": "2019-08-21T04:52:55.000000Z",
@@ -616,7 +616,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.138629Z"
+                "sync": "2019-12-06T18:07:19.531729Z"
             },
             "type": "Orange Wizard",
             "updated_at": "2019-08-21T04:52:50.000000Z",
@@ -647,7 +647,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.138812Z"
+                "sync": "2019-12-06T18:07:19.531930Z"
             },
             "type": "Green Wizard",
             "updated_at": "2019-08-21T04:52:34.000000Z",
@@ -678,7 +678,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.138991Z"
+                "sync": "2019-12-06T18:07:19.532150Z"
             },
             "type": "Green Wizard",
             "updated_at": "2019-08-21T04:51:04.000000Z",
@@ -709,7 +709,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.139183Z"
+                "sync": "2019-12-06T18:07:19.532350Z"
             },
             "type": "Black Wizard",
             "updated_at": "2019-08-21T04:52:41.000000Z",
@@ -740,7 +740,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.139361Z"
+                "sync": "2019-12-06T18:07:19.532532Z"
             },
             "type": "Red Wizard",
             "updated_at": "2019-08-21T04:51:36.000000Z",
@@ -771,7 +771,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.139577Z"
+                "sync": "2019-12-06T18:07:19.532712Z"
             },
             "type": "Blue Wizard",
             "updated_at": "2019-08-21T04:52:29.000000Z",
@@ -802,7 +802,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.139757Z"
+                "sync": "2019-12-06T18:07:19.532908Z"
             },
             "type": "Red Wizard",
             "updated_at": "2019-08-21T04:52:28.000000Z",
@@ -833,7 +833,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.139942Z"
+                "sync": "2019-12-06T18:07:19.533088Z"
             },
             "type": "Red Wizard",
             "updated_at": "2019-08-21T04:51:16.000000Z",
@@ -864,7 +864,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.140150Z"
+                "sync": "2019-12-06T18:07:19.533274Z"
             },
             "type": "Blue Wizard",
             "updated_at": "2019-08-21T04:51:26.000000Z",
@@ -895,7 +895,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.140347Z"
+                "sync": "2019-12-06T18:07:19.533458Z"
             },
             "type": "Blue Wizard",
             "updated_at": "2019-08-21T04:55:51.000000Z",
@@ -923,7 +923,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.140529Z"
+                "sync": "2019-12-06T18:07:19.533704Z"
             },
             "type": "NPC",
             "updated_at": "2019-07-29T19:09:20.000000Z",
@@ -954,7 +954,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.140707Z"
+                "sync": "2019-12-06T18:07:19.533904Z"
             },
             "type": "NPC",
             "updated_at": "2019-11-27T09:42:47.000000Z",
@@ -988,7 +988,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.140885Z"
+                "sync": "2019-12-06T18:07:19.534093Z"
             },
             "type": "Black Wizard",
             "updated_at": "2019-11-27T09:01:04.000000Z",
@@ -1019,7 +1019,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.141091Z"
+                "sync": "2019-12-06T18:07:19.534287Z"
             },
             "type": "Purple Wizard",
             "updated_at": "2019-11-30T13:51:19.000000Z",
@@ -1047,7 +1047,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.141270Z"
+                "sync": "2019-12-06T18:07:19.534472Z"
             },
             "type": "NPC",
             "updated_at": "2019-11-30T13:52:18.000000Z",
@@ -1077,7 +1077,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.141454Z"
+                "sync": "2019-12-06T18:07:19.534658Z"
             },
             "type": "NPC",
             "updated_at": "2019-08-29T20:29:09.000000Z",
@@ -1105,7 +1105,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.141630Z"
+                "sync": "2019-12-06T18:07:19.534852Z"
             },
             "type": "Demon",
             "updated_at": "2019-11-27T09:02:52.000000Z",
@@ -1135,7 +1135,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.141805Z"
+                "sync": "2019-12-06T18:07:19.535031Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:33:28.000000Z",
@@ -1165,7 +1165,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.141991Z"
+                "sync": "2019-12-06T18:07:19.535236Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:34:09.000000Z",
@@ -1195,7 +1195,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.142207Z"
+                "sync": "2019-12-06T18:07:19.535447Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:34:51.000000Z",
@@ -1225,7 +1225,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.142384Z"
+                "sync": "2019-12-06T18:07:19.535636Z"
             },
             "type": "God",
             "updated_at": "2019-11-27T09:02:32.000000Z",
@@ -1255,7 +1255,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.142577Z"
+                "sync": "2019-12-06T18:07:19.535832Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:35:33.000000Z",
@@ -1285,7 +1285,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.142754Z"
+                "sync": "2019-12-06T18:07:19.536012Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:35:50.000000Z",
@@ -1315,7 +1315,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.142954Z"
+                "sync": "2019-12-06T18:07:19.536188Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:36:06.000000Z",
@@ -1345,7 +1345,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.143146Z"
+                "sync": "2019-12-06T18:07:19.536366Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:36:22.000000Z",
@@ -1373,7 +1373,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.143354Z"
+                "sync": "2019-12-06T18:07:19.536571Z"
             },
             "type": "NPC",
             "updated_at": "2019-09-21T13:47:37.000000Z",
@@ -1401,7 +1401,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.143531Z"
+                "sync": "2019-12-06T18:07:19.536752Z"
             },
             "type": "Purple Wizard",
             "updated_at": "2019-09-21T13:49:14.000000Z",
@@ -1429,7 +1429,7 @@
             "title": "Lord",
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.143706Z"
+                "sync": "2019-12-06T18:07:19.536947Z"
             },
             "type": "NPC",
             "updated_at": "2019-11-30T13:51:49.000000Z",
@@ -1457,7 +1457,7 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-05T21:34:57.143881Z"
+                "sync": "2019-12-06T18:07:19.537156Z"
             },
             "type": "Demon",
             "updated_at": "2019-11-27T08:55:00.000000Z",
@@ -2137,8 +2137,31 @@
             "type": "Session",
             "updated_at": "2019-11-30T17:52:47.000000Z",
             "updated_by": 809
+        },
+        {
+            "character_id": null,
+            "created_at": "2019-12-06T15:15:03.000000Z",
+            "created_by": 809,
+            "date": "2019-12-04",
+            "entity_id": 410938,
+            "entry": "\n\n",
+            "has_custom_image": false,
+            "id": 6798,
+            "image": null,
+            "image_full": "https://kanka.io/images/defaults/journals.jpg",
+            "image_thumb": "https://kanka.io/images/defaults/journals_thumb.jpg",
+            "is_private": false,
+            "location_id": 85088,
+            "name": "Dialogue with a Deity 2",
+            "tags": [
+                26571
+            ],
+            "type": "Conversation",
+            "updated_at": "2019-12-06T15:15:03.000000Z",
+            "updated_by": 809
         }
     ],
+    "lastSync": "2019-12-06T20:07:16.317882",
     "locations": [
         {
             "created_at": "2018-01-17T19:02:21.000000Z",
@@ -4146,7 +4169,8 @@
                 330075,
                 330122,
                 362727,
-                403741
+                403741,
+                410938
             ],
             "entity_id": 330113,
             "entry": null,

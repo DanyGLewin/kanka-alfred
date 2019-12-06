@@ -1,3 +1,4 @@
+import datetime
 import getpass
 import json
 import keyring
@@ -20,7 +21,8 @@ endpoints = [
 
 
 def udpate_cache():
-    data = {}
+    now = datetime.datetime.now().isoformat()
+    data = {"lastSync": now}
     for endpoint in endpoints:
         print(endpoint)
         data[endpoint] = get_entities(endpoint)
@@ -41,7 +43,7 @@ def get_url(endpoint):
     return base_url + endpoint
 
 
-def get_entities(endpoint):
+def get_entities(endpoint, pass_time=False):
     assert endpoint in endpoints
     url = get_url(endpoint)
     headers = get_headers()
