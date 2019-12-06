@@ -1,4 +1,5 @@
 {
+    "cached": "2019-12-06T23:46:28.914317",
     "characters": [
         {
             "age": "34",
@@ -91,11 +92,12 @@
                         "section": "appearance"
                     }
                 ],
-                "sync": "2019-12-06T18:07:19.528292Z"
+                "sync": "2019-12-06T21:46:29.696554Z"
             },
             "type": "Orange Wizard",
             "updated_at": "2019-08-21T04:56:55.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/2204"
         },
         {
             "age": null,
@@ -157,11 +159,12 @@
                         "section": "appearance"
                     }
                 ],
-                "sync": "2019-12-06T18:07:19.528812Z"
+                "sync": "2019-12-06T21:46:29.696976Z"
             },
             "type": "Black Wizard",
             "updated_at": "2019-08-21T04:59:07.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/2262"
         },
         {
             "age": null,
@@ -185,11 +188,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.529114Z"
+                "sync": "2019-12-06T21:46:29.697277Z"
             },
             "type": "NPC",
             "updated_at": "2019-08-19T15:25:57.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/78366"
         },
         {
             "age": null,
@@ -217,11 +221,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.529302Z"
+                "sync": "2019-12-06T21:46:29.697498Z"
             },
             "type": "Player Character",
             "updated_at": "2019-07-29T18:10:39.000000Z",
-            "updated_by": 14780
+            "updated_by": 14780,
+            "url": "https://kanka.io/en/campaign/888/characters/78368"
         },
         {
             "age": null,
@@ -248,11 +253,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.529500Z"
+                "sync": "2019-12-06T21:46:29.697685Z"
             },
             "type": "Yellow Wizard",
             "updated_at": "2019-08-21T04:55:01.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/78369"
         },
         {
             "age": "21",
@@ -280,11 +286,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.529680Z"
+                "sync": "2019-12-06T21:46:29.697865Z"
             },
             "type": "Player Character",
             "updated_at": "2019-07-29T16:19:58.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/78370"
         },
         {
             "age": null,
@@ -312,11 +319,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.529879Z"
+                "sync": "2019-12-06T21:46:29.698044Z"
             },
             "type": "Player Character",
             "updated_at": "2019-07-29T17:42:05.000000Z",
-            "updated_by": 14782
+            "updated_by": 14782,
+            "url": "https://kanka.io/en/campaign/888/characters/78371"
         },
         {
             "age": null,
@@ -344,11 +352,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.530062Z"
+                "sync": "2019-12-06T21:46:29.698221Z"
             },
             "type": "Orange Wizard",
             "updated_at": "2019-08-21T04:57:51.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/78538"
         },
         {
             "age": null,
@@ -376,11 +385,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.530240Z"
+                "sync": "2019-12-06T21:46:29.698413Z"
             },
             "type": "Red Wizard",
             "updated_at": "2019-08-21T04:57:03.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/78541"
         },
         {
             "age": null,
@@ -406,11 +416,12 @@
             "title": "The stupid idiot",
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.530423Z"
+                "sync": "2019-12-06T21:46:29.698595Z"
             },
             "type": "NPC",
             "updated_at": "2019-11-30T14:05:06.000000Z",
-            "updated_by": 14779
+            "updated_by": 14779,
+            "url": "https://kanka.io/en/campaign/888/characters/79266"
         },
         {
             "age": "43",
@@ -436,11 +447,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.530638Z"
+                "sync": "2019-12-06T21:46:29.698778Z"
             },
             "type": "NPC",
             "updated_at": "2019-07-29T07:26:15.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79267"
         },
         {
             "age": null,
@@ -467,11 +479,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.530841Z"
+                "sync": "2019-12-06T21:46:29.698955Z"
             },
             "type": "Orange Wizard",
             "updated_at": "2019-08-21T04:59:15.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79286"
         },
         {
             "age": null,
@@ -495,11 +508,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.531021Z"
+                "sync": "2019-12-06T21:46:29.699131Z"
             },
             "type": "NPC",
             "updated_at": "2019-08-21T04:59:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79375"
         },
         {
             "age": null,
@@ -523,11 +537,12 @@
             "title": "Head of the Polaris Council",
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.531199Z"
+                "sync": "2019-12-06T21:46:29.699322Z"
             },
             "type": "NPC",
             "updated_at": "2019-08-21T04:59:39.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79376"
         },
         {
             "age": "38",
@@ -554,11 +569,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.531376Z"
+                "sync": "2019-12-06T21:46:29.699501Z"
             },
             "type": "Yellow Wizard",
             "updated_at": "2019-08-21T04:52:46.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79410"
         },
         {
             "age": "65",
@@ -585,11 +601,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.531554Z"
+                "sync": "2019-12-06T21:46:29.699679Z"
             },
             "type": "White Wizard",
             "updated_at": "2019-08-21T04:52:55.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79412"
         },
         {
             "age": "33",
@@ -616,11 +633,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.531729Z"
+                "sync": "2019-12-06T21:46:29.699857Z"
             },
             "type": "Orange Wizard",
             "updated_at": "2019-08-21T04:52:50.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79413"
         },
         {
             "age": "40",
@@ -647,11 +665,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.531930Z"
+                "sync": "2019-12-06T21:46:29.700036Z"
             },
             "type": "Green Wizard",
             "updated_at": "2019-08-21T04:52:34.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79414"
         },
         {
             "age": "42",
@@ -678,11 +697,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.532150Z"
+                "sync": "2019-12-06T21:46:29.700216Z"
             },
             "type": "Green Wizard",
             "updated_at": "2019-08-21T04:51:04.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79415"
         },
         {
             "age": "22",
@@ -709,11 +729,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.532350Z"
+                "sync": "2019-12-06T21:46:29.700497Z"
             },
             "type": "Black Wizard",
             "updated_at": "2019-08-21T04:52:41.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79419"
         },
         {
             "age": "51",
@@ -740,11 +761,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.532532Z"
+                "sync": "2019-12-06T21:46:29.700679Z"
             },
             "type": "Red Wizard",
             "updated_at": "2019-08-21T04:51:36.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79421"
         },
         {
             "age": "55",
@@ -771,11 +793,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.532712Z"
+                "sync": "2019-12-06T21:46:29.700882Z"
             },
             "type": "Blue Wizard",
             "updated_at": "2019-08-21T04:52:29.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79423"
         },
         {
             "age": "29",
@@ -802,11 +825,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.532908Z"
+                "sync": "2019-12-06T21:46:29.701061Z"
             },
             "type": "Red Wizard",
             "updated_at": "2019-08-21T04:52:28.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79424"
         },
         {
             "age": "28",
@@ -833,11 +857,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.533088Z"
+                "sync": "2019-12-06T21:46:29.701239Z"
             },
             "type": "Red Wizard",
             "updated_at": "2019-08-21T04:51:16.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79425"
         },
         {
             "age": "47",
@@ -864,11 +889,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.533274Z"
+                "sync": "2019-12-06T21:46:29.701432Z"
             },
             "type": "Blue Wizard",
             "updated_at": "2019-08-21T04:51:26.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79426"
         },
         {
             "age": "23",
@@ -895,11 +921,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.533458Z"
+                "sync": "2019-12-06T21:46:29.701616Z"
             },
             "type": "Blue Wizard",
             "updated_at": "2019-08-21T04:55:51.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79429"
         },
         {
             "age": "34",
@@ -923,11 +950,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.533704Z"
+                "sync": "2019-12-06T21:46:29.701801Z"
             },
             "type": "NPC",
             "updated_at": "2019-07-29T19:09:20.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79925"
         },
         {
             "age": null,
@@ -954,11 +982,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.533904Z"
+                "sync": "2019-12-06T21:46:29.701980Z"
             },
             "type": "NPC",
             "updated_at": "2019-11-27T09:42:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/79933"
         },
         {
             "age": "19",
@@ -988,11 +1017,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.534093Z"
+                "sync": "2019-12-06T21:46:29.702160Z"
             },
             "type": "Black Wizard",
             "updated_at": "2019-11-27T09:01:04.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/82742"
         },
         {
             "age": "11",
@@ -1019,11 +1049,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.534287Z"
+                "sync": "2019-12-06T21:46:29.702361Z"
             },
             "type": "Purple Wizard",
             "updated_at": "2019-11-30T13:51:19.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/85379"
         },
         {
             "age": "9",
@@ -1047,11 +1078,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.534472Z"
+                "sync": "2019-12-06T21:46:29.702540Z"
             },
             "type": "NPC",
             "updated_at": "2019-11-30T13:52:18.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/85932"
         },
         {
             "age": null,
@@ -1077,11 +1109,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.534658Z"
+                "sync": "2019-12-06T21:46:29.702723Z"
             },
             "type": "NPC",
             "updated_at": "2019-08-29T20:29:09.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/87724"
         },
         {
             "age": null,
@@ -1105,11 +1138,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.534852Z"
+                "sync": "2019-12-06T21:46:29.702899Z"
             },
             "type": "Demon",
             "updated_at": "2019-11-27T09:02:52.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/87726"
         },
         {
             "age": null,
@@ -1135,11 +1169,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.535031Z"
+                "sync": "2019-12-06T21:46:29.703076Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:33:28.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/88997"
         },
         {
             "age": null,
@@ -1165,11 +1200,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.535236Z"
+                "sync": "2019-12-06T21:46:29.703272Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:34:09.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/88998"
         },
         {
             "age": null,
@@ -1195,11 +1231,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.535447Z"
+                "sync": "2019-12-06T21:46:29.703452Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:34:51.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/88999"
         },
         {
             "age": null,
@@ -1225,11 +1262,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.535636Z"
+                "sync": "2019-12-06T21:46:29.703629Z"
             },
             "type": "God",
             "updated_at": "2019-11-27T09:02:32.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/89000"
         },
         {
             "age": null,
@@ -1255,11 +1293,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.535832Z"
+                "sync": "2019-12-06T21:46:29.703804Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:35:33.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/89001"
         },
         {
             "age": null,
@@ -1285,11 +1324,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.536012Z"
+                "sync": "2019-12-06T21:46:29.703980Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:35:50.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/89002"
         },
         {
             "age": null,
@@ -1315,11 +1355,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.536188Z"
+                "sync": "2019-12-06T21:46:29.704178Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:36:06.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/89004"
         },
         {
             "age": null,
@@ -1345,11 +1386,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.536366Z"
+                "sync": "2019-12-06T21:46:29.704371Z"
             },
             "type": "God",
             "updated_at": "2019-09-04T12:36:22.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/89005"
         },
         {
             "age": null,
@@ -1373,11 +1415,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.536571Z"
+                "sync": "2019-12-06T21:46:29.704577Z"
             },
             "type": "NPC",
             "updated_at": "2019-09-21T13:47:37.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/92933"
         },
         {
             "age": "21",
@@ -1401,11 +1444,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.536752Z"
+                "sync": "2019-12-06T21:46:29.704757Z"
             },
             "type": "Purple Wizard",
             "updated_at": "2019-09-21T13:49:14.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/92935"
         },
         {
             "age": "39",
@@ -1429,11 +1473,12 @@
             "title": "Lord",
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.536947Z"
+                "sync": "2019-12-06T21:46:29.704934Z"
             },
             "type": "NPC",
             "updated_at": "2019-11-30T13:51:49.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/93140"
         },
         {
             "age": null,
@@ -1457,11 +1502,12 @@
             "title": null,
             "traits": {
                 "data": [],
-                "sync": "2019-12-06T18:07:19.537156Z"
+                "sync": "2019-12-06T21:46:29.705111Z"
             },
             "type": "Demon",
             "updated_at": "2019-11-27T08:55:00.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/characters/99130"
         }
     ],
     "events": [
@@ -1470,7 +1516,7 @@
             "created_by": 809,
             "date": "0-3-1",
             "entity_id": 288328,
-            "entry": "\n\n",
+            "entry": "\n<p>test</p>\n",
             "has_custom_image": true,
             "id": 9067,
             "image": "events/QOCqlai2WXsbbdgPPHZqrm13NBQ7ubZ44BZoDJJr.jpeg",
@@ -1481,8 +1527,9 @@
             "name": "Mid-Winter",
             "tags": [],
             "type": null,
-            "updated_at": "2019-07-29T15:40:24.000000Z",
-            "updated_by": 809
+            "updated_at": "2019-12-06T21:05:28.000000Z",
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/9067"
         },
         {
             "created_at": "2019-07-27T16:26:10.000000Z",
@@ -1501,7 +1548,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T16:26:10.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/9068"
         },
         {
             "created_at": "2019-07-29T15:24:18.000000Z",
@@ -1520,7 +1568,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-29T15:24:18.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/9130"
         },
         {
             "created_at": "2019-07-29T15:24:53.000000Z",
@@ -1539,7 +1588,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-29T15:24:53.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/9131"
         },
         {
             "created_at": "2019-07-29T16:34:57.000000Z",
@@ -1558,7 +1608,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-29T16:34:57.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/9137"
         },
         {
             "created_at": "2019-08-28T12:50:02.000000Z",
@@ -1577,7 +1628,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-28T12:50:02.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/10098"
         },
         {
             "created_at": "2019-08-28T12:50:43.000000Z",
@@ -1596,7 +1648,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-28T12:50:43.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/10099"
         },
         {
             "created_at": "2019-08-28T12:51:09.000000Z",
@@ -1615,7 +1668,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-09-05T10:23:32.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/10100"
         },
         {
             "created_at": "2019-08-28T12:51:47.000000Z",
@@ -1634,7 +1688,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-28T12:51:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/10101"
         },
         {
             "created_at": "2019-11-27T08:37:33.000000Z",
@@ -1653,7 +1708,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-11-27T08:37:33.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/13450"
         },
         {
             "created_at": "2019-11-29T21:14:32.000000Z",
@@ -1672,7 +1728,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-11-29T21:14:32.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/13479"
         },
         {
             "created_at": "2019-11-29T21:19:57.000000Z",
@@ -1691,7 +1748,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-11-30T17:53:10.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/events/13480"
         }
     ],
     "items": [
@@ -1714,7 +1772,8 @@
             "tags": [],
             "type": "Stone",
             "updated_at": "2019-07-27T20:00:37.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/items/550"
         },
         {
             "character_id": 78541,
@@ -1735,7 +1794,8 @@
             "tags": [],
             "type": "Stone",
             "updated_at": "2019-07-28T15:24:08.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/items/23542"
         },
         {
             "character_id": 93140,
@@ -1756,7 +1816,8 @@
             "tags": [],
             "type": "Stone",
             "updated_at": "2019-11-29T21:08:03.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/items/23543"
         },
         {
             "character_id": null,
@@ -1777,7 +1838,8 @@
             "tags": [],
             "type": "Stone",
             "updated_at": "2019-08-28T10:16:03.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/items/23544"
         },
         {
             "character_id": 78371,
@@ -1800,7 +1862,8 @@
             ],
             "type": "Stone",
             "updated_at": "2019-11-27T08:42:35.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/items/23545"
         },
         {
             "character_id": null,
@@ -1821,7 +1884,8 @@
             "tags": [],
             "type": "Stone",
             "updated_at": "2019-09-22T15:20:59.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/items/23546"
         },
         {
             "character_id": null,
@@ -1842,7 +1906,8 @@
             "tags": [],
             "type": "Stone",
             "updated_at": "2019-07-28T15:27:00.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/items/23547"
         },
         {
             "character_id": 78370,
@@ -1863,7 +1928,8 @@
             "tags": [],
             "type": "Stone",
             "updated_at": "2019-09-22T15:20:35.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/items/23548"
         },
         {
             "character_id": null,
@@ -1884,7 +1950,8 @@
             "tags": [],
             "type": "Plant",
             "updated_at": "2019-08-18T20:40:12.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/items/25119"
         }
     ],
     "journals": [
@@ -1908,7 +1975,8 @@
             ],
             "type": "Session",
             "updated_at": "2019-07-28T20:30:10.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/4479"
         },
         {
             "character_id": null,
@@ -1930,7 +1998,8 @@
             ],
             "type": "Session",
             "updated_at": "2019-07-29T16:21:07.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/4480"
         },
         {
             "character_id": null,
@@ -1950,7 +2019,8 @@
             "tags": [],
             "type": "Session",
             "updated_at": "2019-08-28T20:22:13.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/4866"
         },
         {
             "character_id": null,
@@ -1970,7 +2040,8 @@
             "tags": [],
             "type": "Session",
             "updated_at": "2019-09-01T20:47:14.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/4984"
         },
         {
             "character_id": null,
@@ -1992,7 +2063,8 @@
             ],
             "type": "Conversation",
             "updated_at": "2019-09-10T20:07:08.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/5244"
         },
         {
             "character_id": null,
@@ -2014,7 +2086,8 @@
             ],
             "type": "Conversation",
             "updated_at": "2019-09-14T09:52:41.000000Z",
-            "updated_by": 14780
+            "updated_by": 14780,
+            "url": "https://kanka.io/en/campaign/888/journals/5245"
         },
         {
             "character_id": 78371,
@@ -2034,7 +2107,8 @@
             "tags": [],
             "type": "Backstory",
             "updated_at": "2019-09-21T12:54:00.000000Z",
-            "updated_by": 14782
+            "updated_by": 14782,
+            "url": "https://kanka.io/en/campaign/888/journals/5410"
         },
         {
             "character_id": null,
@@ -2054,7 +2128,8 @@
             "tags": [],
             "type": "Session",
             "updated_at": "2019-10-22T14:15:19.000000Z",
-            "updated_by": 14782
+            "updated_by": 14782,
+            "url": "https://kanka.io/en/campaign/888/journals/5497"
         },
         {
             "character_id": null,
@@ -2074,7 +2149,8 @@
             "tags": [],
             "type": "Conversation",
             "updated_at": "2019-09-26T22:06:25.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/5503"
         },
         {
             "character_id": null,
@@ -2094,7 +2170,8 @@
             "tags": [],
             "type": "Session",
             "updated_at": "2019-11-29T17:35:18.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/6611"
         },
         {
             "character_id": null,
@@ -2116,7 +2193,8 @@
             ],
             "type": "Conversation",
             "updated_at": "2019-11-27T09:43:52.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/6612"
         },
         {
             "character_id": 78368,
@@ -2136,7 +2214,8 @@
             "tags": [],
             "type": "Session",
             "updated_at": "2019-11-30T17:52:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/6672"
         },
         {
             "character_id": null,
@@ -2158,10 +2237,10 @@
             ],
             "type": "Conversation",
             "updated_at": "2019-12-06T15:15:03.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/journals/6798"
         }
     ],
-    "lastSync": "2019-12-06T20:07:16.317882",
     "locations": [
         {
             "created_at": "2018-01-17T19:02:21.000000Z",
@@ -2181,7 +2260,8 @@
             "tags": [],
             "type": "City",
             "updated_at": "2019-08-17T17:04:27.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/2884"
         },
         {
             "created_at": "2018-01-17T19:02:37.000000Z",
@@ -2201,7 +2281,8 @@
             "tags": [],
             "type": "Continent",
             "updated_at": "2019-07-28T18:53:28.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/2885"
         },
         {
             "created_at": "2018-01-18T20:23:45.000000Z",
@@ -2221,7 +2302,8 @@
             "tags": [],
             "type": "City",
             "updated_at": "2019-07-28T18:46:51.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/2965"
         },
         {
             "created_at": "2018-01-18T20:25:08.000000Z",
@@ -2241,7 +2323,8 @@
             "tags": [],
             "type": "City",
             "updated_at": "2019-07-28T16:46:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/2969"
         },
         {
             "created_at": "2018-01-18T20:25:31.000000Z",
@@ -2261,7 +2344,8 @@
             "tags": [],
             "type": "City",
             "updated_at": "2019-07-28T16:32:45.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/2970"
         },
         {
             "created_at": "2018-01-18T20:26:41.000000Z",
@@ -2281,7 +2365,8 @@
             "tags": [],
             "type": "City",
             "updated_at": "2019-07-28T17:57:39.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/2971"
         },
         {
             "created_at": "2018-01-18T20:26:55.000000Z",
@@ -2301,7 +2386,8 @@
             "tags": [],
             "type": "City",
             "updated_at": "2019-07-28T17:51:52.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/2972"
         },
         {
             "created_at": "2018-01-18T20:43:40.000000Z",
@@ -2321,7 +2407,8 @@
             "tags": [],
             "type": "World",
             "updated_at": "2019-07-28T17:55:53.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/2973"
         },
         {
             "created_at": "2019-07-28T12:07:47.000000Z",
@@ -2343,7 +2430,8 @@
             ],
             "type": "Temple",
             "updated_at": "2019-07-28T18:30:19.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78745"
         },
         {
             "created_at": "2019-07-28T12:13:01.000000Z",
@@ -2363,7 +2451,8 @@
             "tags": [],
             "type": "Mountain Range",
             "updated_at": "2019-07-28T16:29:42.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78748"
         },
         {
             "created_at": "2019-07-28T12:45:40.000000Z",
@@ -2383,7 +2472,8 @@
             "tags": [],
             "type": "World",
             "updated_at": "2019-07-29T17:52:40.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78749"
         },
         {
             "created_at": "2019-07-28T12:52:21.000000Z",
@@ -2403,7 +2493,8 @@
             "tags": [],
             "type": "Forest",
             "updated_at": "2019-07-28T17:30:04.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78754"
         },
         {
             "created_at": "2019-07-28T12:54:08.000000Z",
@@ -2423,7 +2514,8 @@
             "tags": [],
             "type": "Continent",
             "updated_at": "2019-07-28T16:57:28.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78757"
         },
         {
             "created_at": "2019-07-28T12:55:04.000000Z",
@@ -2443,7 +2535,8 @@
             "tags": [],
             "type": "Continent",
             "updated_at": "2019-07-28T17:47:30.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78759"
         },
         {
             "created_at": "2019-07-28T17:38:37.000000Z",
@@ -2467,7 +2560,8 @@
             ],
             "type": "Road",
             "updated_at": "2019-07-28T17:39:15.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78805"
         },
         {
             "created_at": "2019-07-28T18:39:14.000000Z",
@@ -2487,7 +2581,8 @@
             "tags": [],
             "type": "Forest",
             "updated_at": "2019-07-29T17:55:50.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78816"
         },
         {
             "created_at": "2019-07-28T18:46:39.000000Z",
@@ -2507,7 +2602,8 @@
             "tags": [],
             "type": "Continent",
             "updated_at": "2019-07-28T18:52:57.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78818"
         },
         {
             "created_at": "2019-07-28T18:52:28.000000Z",
@@ -2527,7 +2623,8 @@
             "tags": [],
             "type": "Continent",
             "updated_at": "2019-07-28T18:52:28.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78819"
         },
         {
             "created_at": "2019-07-28T19:59:38.000000Z",
@@ -2550,7 +2647,8 @@
             ],
             "type": "Tavern",
             "updated_at": "2019-07-29T14:00:18.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78827"
         },
         {
             "created_at": "2019-07-28T20:15:47.000000Z",
@@ -2570,7 +2668,8 @@
             "tags": [],
             "type": "River",
             "updated_at": "2019-07-28T20:15:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78831"
         },
         {
             "created_at": "2019-07-28T20:16:46.000000Z",
@@ -2594,7 +2693,8 @@
             ],
             "type": "Road",
             "updated_at": "2019-07-28T20:16:46.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78832"
         },
         {
             "created_at": "2019-07-29T13:59:53.000000Z",
@@ -2614,7 +2714,8 @@
             "tags": [],
             "type": "Tavern",
             "updated_at": "2019-07-29T14:03:52.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78968"
         },
         {
             "created_at": "2019-07-29T19:19:26.000000Z",
@@ -2634,7 +2735,8 @@
             "tags": [],
             "type": "Temple",
             "updated_at": "2019-07-29T19:19:26.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/78995"
         },
         {
             "created_at": "2019-08-09T08:00:46.000000Z",
@@ -2654,7 +2756,8 @@
             "tags": [],
             "type": "Travelling Circus",
             "updated_at": "2019-08-09T08:07:12.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/81352"
         },
         {
             "created_at": "2019-08-09T08:13:29.000000Z",
@@ -2677,7 +2780,8 @@
             ],
             "type": "Temple",
             "updated_at": "2019-08-09T08:13:29.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/81353"
         },
         {
             "created_at": "2019-08-09T08:16:02.000000Z",
@@ -2700,7 +2804,8 @@
             ],
             "type": "Temple",
             "updated_at": "2019-08-09T08:16:02.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/81354"
         },
         {
             "created_at": "2019-08-19T20:34:44.000000Z",
@@ -2722,7 +2827,8 @@
             ],
             "type": "Tavern",
             "updated_at": "2019-08-21T12:32:14.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/83846"
         },
         {
             "created_at": "2019-08-26T04:17:23.000000Z",
@@ -2742,7 +2848,8 @@
             "tags": [],
             "type": "Town",
             "updated_at": "2019-08-28T09:49:15.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/85088"
         },
         {
             "created_at": "2019-08-29T20:09:26.000000Z",
@@ -2762,7 +2869,8 @@
             "tags": [],
             "type": "Town",
             "updated_at": "2019-08-29T20:09:26.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/85826"
         },
         {
             "created_at": "2019-08-30T18:32:20.000000Z",
@@ -2785,7 +2893,8 @@
             ],
             "type": "Temple",
             "updated_at": "2019-08-30T18:32:20.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/86012"
         },
         {
             "created_at": "2019-09-21T12:08:14.000000Z",
@@ -2805,7 +2914,8 @@
             "tags": [],
             "type": "Town",
             "updated_at": "2019-09-21T12:08:14.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/90584"
         },
         {
             "created_at": "2019-09-22T15:27:36.000000Z",
@@ -2828,7 +2938,8 @@
             ],
             "type": "Temple",
             "updated_at": "2019-09-22T15:27:36.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/91108"
         },
         {
             "created_at": "2019-11-27T08:45:13.000000Z",
@@ -2850,7 +2961,8 @@
             ],
             "type": "Temple",
             "updated_at": "2019-11-27T08:45:13.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/106854"
         },
         {
             "created_at": "2019-11-27T09:22:37.000000Z",
@@ -2873,7 +2985,8 @@
             ],
             "type": "Temple",
             "updated_at": "2019-11-27T09:22:37.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/106874"
         },
         {
             "created_at": "2019-11-29T20:26:42.000000Z",
@@ -2893,7 +3006,8 @@
             "tags": [],
             "type": "Town",
             "updated_at": "2019-11-29T20:26:42.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/locations/107270"
         }
     ],
     "notes": [
@@ -2913,7 +3027,8 @@
             "tags": [],
             "type": "Session Plan",
             "updated_at": "2019-08-26T04:41:37.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/8197"
         },
         {
             "created_at": "2019-08-21T06:58:06.000000Z",
@@ -2931,7 +3046,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-11-30T10:42:39.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/8526"
         },
         {
             "created_at": "2019-08-26T02:15:13.000000Z",
@@ -2949,7 +3065,8 @@
             "tags": [],
             "type": "Session Plan",
             "updated_at": "2019-08-28T09:10:43.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/8685"
         },
         {
             "created_at": "2019-08-28T20:23:34.000000Z",
@@ -2969,7 +3086,8 @@
             ],
             "type": "Session Plan",
             "updated_at": "2019-09-26T14:48:58.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/8741"
         },
         {
             "created_at": "2019-09-04T12:28:30.000000Z",
@@ -2987,7 +3105,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-09-04T12:38:22.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/8883"
         },
         {
             "created_at": "2019-09-05T12:37:08.000000Z",
@@ -3007,7 +3126,8 @@
             ],
             "type": "Session Plan",
             "updated_at": "2019-09-05T12:40:08.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/8918"
         },
         {
             "created_at": "2019-09-12T06:05:45.000000Z",
@@ -3025,7 +3145,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-10-25T18:28:52.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/9114"
         },
         {
             "created_at": "2019-09-22T14:26:16.000000Z",
@@ -3043,7 +3164,8 @@
             "tags": [],
             "type": "Stats",
             "updated_at": "2019-09-22T15:06:15.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/9381"
         },
         {
             "created_at": "2019-09-22T15:01:55.000000Z",
@@ -3061,7 +3183,8 @@
             "tags": [],
             "type": "Stats",
             "updated_at": "2019-09-22T15:02:10.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/9382"
         },
         {
             "created_at": "2019-09-22T15:05:54.000000Z",
@@ -3081,7 +3204,8 @@
             ],
             "type": "Stats",
             "updated_at": "2019-09-22T15:05:54.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/9383"
         },
         {
             "created_at": "2019-09-22T15:14:02.000000Z",
@@ -3099,7 +3223,8 @@
             "tags": [],
             "type": "Stats",
             "updated_at": "2019-09-22T15:14:02.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/9384"
         },
         {
             "created_at": "2019-09-22T15:16:09.000000Z",
@@ -3117,7 +3242,8 @@
             "tags": [],
             "type": "Stats",
             "updated_at": "2019-09-22T15:16:09.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/9385"
         },
         {
             "created_at": "2019-09-22T15:17:35.000000Z",
@@ -3137,7 +3263,8 @@
             ],
             "type": "Stats",
             "updated_at": "2019-09-22T15:17:35.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/9386"
         },
         {
             "created_at": "2019-09-22T15:19:42.000000Z",
@@ -3157,7 +3284,8 @@
             ],
             "type": "Stats",
             "updated_at": "2019-09-22T15:19:42.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/9387"
         },
         {
             "created_at": "2019-09-23T13:58:00.000000Z",
@@ -3175,7 +3303,8 @@
             "tags": [],
             "type": "Letter",
             "updated_at": "2019-09-23T13:58:00.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/9415"
         },
         {
             "created_at": "2019-10-15T21:33:42.000000Z",
@@ -3195,7 +3324,8 @@
             ],
             "type": null,
             "updated_at": "2019-11-27T09:07:26.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/10211"
         },
         {
             "created_at": "2019-10-15T22:46:11.000000Z",
@@ -3213,7 +3343,8 @@
             "tags": [],
             "type": "Session Plan",
             "updated_at": "2019-10-26T08:50:27.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/10213"
         },
         {
             "created_at": "2019-11-29T17:35:38.000000Z",
@@ -3231,7 +3362,8 @@
             "tags": [],
             "type": "Session Plan",
             "updated_at": "2019-11-30T07:29:29.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/notes/11796"
         }
     ],
     "organisations": [
@@ -3253,7 +3385,8 @@
             "tags": [],
             "type": "Guild",
             "updated_at": "2019-11-14T13:20:54.000000Z",
-            "updated_by": null
+            "updated_by": null,
+            "url": "https://kanka.io/en/campaign/888/organisations/449"
         },
         {
             "created_at": "2018-01-18T20:32:39.000000Z",
@@ -3273,7 +3406,8 @@
             "tags": [],
             "type": "Parlament",
             "updated_at": "2019-11-14T13:20:54.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/organisations/459"
         },
         {
             "created_at": "2018-01-18T20:39:39.000000Z",
@@ -3293,7 +3427,8 @@
             "tags": [],
             "type": "Rebels",
             "updated_at": "2019-11-14T13:20:54.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/organisations/460"
         },
         {
             "created_at": "2019-07-29T17:59:39.000000Z",
@@ -3313,7 +3448,8 @@
             "tags": [],
             "type": "Cult",
             "updated_at": "2019-11-14T13:20:54.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/organisations/14733"
         },
         {
             "created_at": "2019-07-29T18:12:43.000000Z",
@@ -3333,7 +3469,8 @@
             "tags": [],
             "type": "Travelling Circus",
             "updated_at": "2019-11-14T13:20:54.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/organisations/14734"
         },
         {
             "created_at": "2019-11-27T08:20:24.000000Z",
@@ -3353,7 +3490,8 @@
             "tags": [],
             "type": "Players",
             "updated_at": "2019-11-27T09:42:10.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/organisations/21571"
         }
     ],
     "tags": [
@@ -3385,7 +3523,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T15:54:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23134"
         },
         {
             "colour": null,
@@ -3405,7 +3544,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T15:54:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23135"
         },
         {
             "colour": null,
@@ -3434,7 +3574,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T15:54:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23136"
         },
         {
             "colour": null,
@@ -3478,7 +3619,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T15:54:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23137"
         },
         {
             "colour": null,
@@ -3502,7 +3644,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T15:54:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23138"
         },
         {
             "colour": null,
@@ -3522,7 +3665,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T16:37:57.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23143"
         },
         {
             "colour": null,
@@ -3547,7 +3691,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T16:47:04.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23146"
         },
         {
             "colour": null,
@@ -3571,7 +3716,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T16:47:04.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23147"
         },
         {
             "colour": null,
@@ -3595,7 +3741,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T16:47:46.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23148"
         },
         {
             "colour": null,
@@ -3621,7 +3768,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-27T16:49:46.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23149"
         },
         {
             "colour": null,
@@ -3646,7 +3794,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T11:48:09.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23188"
         },
         {
             "colour": null,
@@ -3666,7 +3815,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T11:48:09.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23189"
         },
         {
             "colour": null,
@@ -3688,7 +3838,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T12:07:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23190"
         },
         {
             "colour": null,
@@ -3708,7 +3859,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T12:07:50.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23191"
         },
         {
             "colour": null,
@@ -3733,7 +3885,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T19:54:50.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23224"
         },
         {
             "colour": null,
@@ -3756,7 +3909,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T19:59:38.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23225"
         },
         {
             "colour": null,
@@ -3778,7 +3932,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T20:16:46.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23226"
         },
         {
             "colour": null,
@@ -3800,7 +3955,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T20:16:46.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23227"
         },
         {
             "colour": null,
@@ -3822,7 +3978,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T20:17:28.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23228"
         },
         {
             "colour": null,
@@ -3844,7 +4001,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-28T20:17:28.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23229"
         },
         {
             "colour": null,
@@ -3866,7 +4024,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-29T07:18:01.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23258"
         },
         {
             "colour": null,
@@ -3888,7 +4047,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-29T18:17:25.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23283"
         },
         {
             "colour": null,
@@ -3911,7 +4071,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-29T18:20:33.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23284"
         },
         {
             "colour": null,
@@ -3936,7 +4097,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-29T19:28:29.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23298"
         },
         {
             "colour": null,
@@ -3958,7 +4120,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-07-29T19:28:29.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/23299"
         },
         {
             "colour": null,
@@ -3980,7 +4143,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-08T15:14:33.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/24141"
         },
         {
             "colour": null,
@@ -4006,7 +4170,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-09T08:13:29.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/24192"
         },
         {
             "colour": null,
@@ -4030,7 +4195,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-09T08:13:29.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/24193"
         },
         {
             "colour": null,
@@ -4053,7 +4219,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-09T08:16:02.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/24194"
         },
         {
             "colour": null,
@@ -4075,7 +4242,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-18T20:53:28.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/25090"
         },
         {
             "colour": null,
@@ -4097,7 +4265,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-21T04:55:34.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/25255"
         },
         {
             "colour": null,
@@ -4117,7 +4286,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-26T04:47:31.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/25540"
         },
         {
             "colour": null,
@@ -4137,7 +4307,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-26T05:32:47.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/25541"
         },
         {
             "colour": null,
@@ -4159,7 +4330,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-08-28T20:22:52.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/25720"
         },
         {
             "colour": null,
@@ -4185,7 +4357,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-09-10T19:59:25.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/26571"
         },
         {
             "colour": null,
@@ -4207,7 +4380,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-09-22T15:05:54.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/27266"
         },
         {
             "colour": null,
@@ -4230,7 +4404,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-09-22T15:19:03.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/27267"
         },
         {
             "colour": null,
@@ -4252,7 +4427,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-11-27T08:45:13.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/32632"
         },
         {
             "colour": null,
@@ -4272,7 +4448,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-11-27T08:49:11.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/32633"
         },
         {
             "colour": null,
@@ -4294,7 +4471,8 @@
             "tags": [],
             "type": null,
             "updated_at": "2019-11-27T09:23:21.000000Z",
-            "updated_by": 809
+            "updated_by": 809,
+            "url": "https://kanka.io/en/campaign/888/tags/32636"
         }
     ]
 }
