@@ -5,9 +5,13 @@ import getpass
 import json
 import keyring
 import requests
+import sys
 
-cache_file_name = 'cache.json'
+import traceback
+
+cache_file_name = '/Users/danylewin/dev/kanka-alfred/kanka/cache.json'
 cached_time_key = 'cached'
+caching_wait_hours = 24
 
 campaign_id = '888'
 api_url = "https://kanka.io/api/1.0/campaigns/{id}/".format(id=campaign_id)
@@ -27,29 +31,35 @@ endpoints = [
 
 def udpate_cache(force=False):
     now = datetime.datetime.now()
-    if not force:
-        with open(cache_file_name, 'r') as cache:
-            cached_data = json.load(cache)
-        if cached_time_key in cached_data.keys():
-            if not need_to_cache(cached_data[cached_time_key]):
-                print("No need to update")
-                return
 
     data = {cached_time_key: now.isoformat()}
     for endpoint in endpoints:
-        print(endpoint)
         entities = get_entities(endpoint)
         add_entity_urls(endpoint, entities)
         data[endpoint] = entities
+
     with open(cache_file_name, 'w+') as cache:
         cache.write(json.dumps(data, sort_keys=True, indent=4, separators=(',', ': ')))
 
 
-def need_to_cache(last_cached):
+def need_to_cache():
+    try:
+        with open(cache_file_name, 'r') as cache:
+            cached_data = json.load(cache)
+        if cached_time_key in cached_data.keys():
+            return not cached_recently(cached_data[cached_time_key])
+    except FileNotFoundError:
+        return True
+    return False
+
+
+def cached_recently(last_cached):
+    if not last_cached:
+        return False
     now = datetime.datetime.now()
     sync_time = dateutil.parser.parse(last_cached)
-    two_hours_ago = now - datetime.timedelta(hours=2)
-    return not two_hours_ago < sync_time < now
+    some_hours_ago = now - datetime.timedelta(hours=caching_wait_hours)
+    return some_hours_ago < sync_time < now
 
 
 def add_entity_urls(endpoint, entities):
@@ -84,7 +94,7 @@ def get_entities(endpoint):
 
 
 def get_campaigns():
-    # have a different url, in that they don't include any id
+    # have a different url format, they don't include any id
     res = requests.get('https://kanka.io/api/1.0/campaigns', headers=get_headers())
     if res.status_code != 200:
         raise Exception(res.status_code)
@@ -97,26 +107,19 @@ def get_characters():
 
 
 def load_entities():
-    try:
-        with open(cache_file_name):
-            pass
-    except FileNotFoundError:
-        return get_all_entities()
-
     with open(cache_file_name) as cache:
         data = json.load(cache)
-        return {entity['name']: entity['url'] for endpoint in endpoints for entity in data[endpoint]}
-
-
-def get_all_entities():
-    # TODO
-    pass
+    return {entity['name']: entity['url'] for endpoint in endpoints for entity in data[endpoint]}
 
 
 def find_entity(query):
-    all_entities = load_entities()
+    if need_to_cache():
+        wait()
+        udpate_cache(force=False)
+        return
 
-    sorted_entity_names = process.extract(query, all_entities, limit=55)
+    all_entities = load_entities()
+    sorted_entity_names = process.extract(query, all_entities.keys(), limit=5)
     out = {"items": []}
     for entity_name in sorted_entity_names:
         item = {
@@ -124,10 +127,56 @@ def find_entity(query):
             'title': entity_name[0],
             'subtitle': all_entities[entity_name[0]],
             "icon": {
-                "path": "/Users/danylewin/dev/aon_search/Nethys.png"
+                "path": ""
             },
-            "arg": all_entities[entity_name[0]].replace(" ", "%20"),
+            "arg": all_entities[entity_name[0]],
             "autocomplete": entity_name[0]
         }
         out['items'].append(item)
     print(json.dumps(out))
+
+
+def fail(e=None):
+    out = {
+        "items": [
+            {
+                'uid': 'whoops',
+                'title': 'whoopsie',
+                'subtitle': 'copy this for traceback',
+                'icon': {
+                    'path': ''
+                },
+                'arg': str(traceback.format_exc()),
+                'autocomplete': 'whoopsie'
+            }
+        ]
+    }
+    print(json.dumps(out))
+
+
+def wait():
+    out = {
+        "rerun": 1,
+        "items": [
+            {
+                'uid': 'loading...',
+                'title': 'loading...',
+                'subtitle': 'Loading all entities from campaign',
+                'icon': {
+                    'path': ''
+                },
+                'autocomplete': 'loading...',
+                'valid': False
+            }
+        ]
+    }
+    s = json.dumps(out)
+    print(s)
+
+
+if len(sys.argv) > 1:
+    query = ' '.join(sys.argv[1:])
+    try:
+        find_entity(query)
+    except Exception as e:
+        fail(e)
