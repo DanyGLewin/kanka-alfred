@@ -10,6 +10,7 @@ import sys
 import traceback
 
 cache_file_name = '/Users/danylewin/dev/kanka-alfred/kanka/cache.json'
+categories_file_name = '/Users/danylewin/dev/kanka-alfred/kanka/categories.json'
 cached_time_key = 'cached'
 caching_wait_hours = 24
 
@@ -112,6 +113,11 @@ def load_entities():
     return {entity['name']: entity['url'] for endpoint in endpoints for entity in data[endpoint]}
 
 
+def load_categories():
+    with open(categories_file_name) as categories:
+        return json.load(categories)
+
+
 def find_entity(query):
     if need_to_cache():
         wait()
@@ -119,7 +125,8 @@ def find_entity(query):
         return
 
     all_entities = load_entities()
-    sorted_entity_names = process.extract(query, all_entities.keys(), limit=5)
+    all_entities.update(load_categories())
+    sorted_entity_names = process.extract(query, all_entities.keys(), limit=25)
     out = {"items": []}
     for entity_name in sorted_entity_names:
         item = {
