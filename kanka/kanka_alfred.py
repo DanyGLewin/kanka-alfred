@@ -13,11 +13,13 @@ import keyring
 import requests
 
 path = os.getenv("workflow_path")
-# path = "/Users/danylewin/dev/kanka-alfred/kanka/"
+# path = "/Users/danylewin/dev/kanka-alfred/kanka"
 cache_path = path + "/cache.json"
 cache_limit = os.getenv("cache_limit")
-# cache_limit = 24
+# cache_limit = "24"
 token = os.getenv("token")
+json_cache_time_key = "cache_time"
+
 api_url = "https://kanka.io/api/1.0/campaigns/{id}/{endpoint}"
 entity_url = "https://kanka.io/en/campaign/{game}/{endpoint}/{entity}"
 category_url = "https://kanka.io/en/campaign/{game}/{endpoint}"
@@ -51,8 +53,7 @@ def get_headers():
     return header
 
 
-def get_campaigns():
-    # have a different url format, they don't include any id
+def request_campaigns():
     res = requests.get('https://kanka.io/api/1.0/campaigns', headers=get_headers())
     if res.status_code != 200:
         raise Exception(res.status_code)
@@ -64,20 +65,20 @@ def get_campaigns():
     return games
 
 
-def get_campaign_entities(campaign_id):
-    data = {}
-    header = get_headers()
-    for endpoint in endpoints:
-        request_url = api_url.format(id=campaign_id, endpoint=endpoint)
-        res = requests.get(request_url, headers=header)
-        if res.status_code != 200:
-            continue
-        response_data = json.loads(res.content)
-        for entity in response_data["data"]:
-            url = entity_url.format(game=campaign_id, endpoint=endpoint, entity=entity["id"])
-            pretty_name = unicodedata.normalize("NFKD", entity["name"]).title()
-            data[pretty_name] = url
-    return data
+def get_campaigns():
+    games = {}
+    try:
+        with open(cache_path, "r+") as cache:
+            cache_data = json.load(cache)["data"].items()
+            dashboards = {url: item_name for item_name, url in cache_data if "Dashboard" in item_name}
+            for url in dashboards:
+                name = dashboards[url].replace(" Dashboard", "")
+                game_id = url.split('/')[-1]
+                games[name] = game_id
+        return games
+
+    except FileNotFoundError:
+        return request_campaigns()
 
 
 class CampaignThread(threading.Thread):
@@ -130,7 +131,7 @@ def get_all_entities():
         data.update(output_dict)
 
     data = {
-        "cache_time": datetime.datetime.now().isoformat(),
+        json_cache_time_key: datetime.datetime.now().isoformat(),
         "data": data
     }
 
@@ -143,7 +144,7 @@ def cached_recently(last_cached):
         return False
     now = datetime.datetime.now()
     sync_time = dateutil.parser.parse(last_cached)
-    some_hours_ago = now - datetime.timedelta(hours=cache_limit)
+    some_hours_ago = now - datetime.timedelta(hours=int(cache_limit))
     return some_hours_ago < sync_time < now
 
 
@@ -151,8 +152,8 @@ def need_to_cache():
     try:
         with open(cache_path, 'r') as cache:
             cached_data = json.load(cache)
-        if "cached_time" in cached_data.keys():
-            return not cached_recently(cached_data["cached_time"])
+        if json_cache_time_key in cached_data.keys():
+            return not cached_recently(cached_data[json_cache_time_key])
     except FileNotFoundError:
         return True
     return False
