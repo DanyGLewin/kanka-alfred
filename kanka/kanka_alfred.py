@@ -4,28 +4,42 @@ import json
 import os
 import sys
 import threading
+import time
 import traceback
 import unicodedata
 
 from fuzzywuzzy import process
-import getpass
-import keyring
 import requests
 
-path = os.getenv("workflow_path")
-# path = "/Users/danylewin/dev/kanka-alfred/kanka"
-cache_path = path + "/cache.json"
-cache_limit = os.getenv("cache_limit")
-# cache_limit = "24"
+# api user token
 token = os.getenv("token")
+
+# path where data will be cached
+path = os.getenv("workflow_path")
+cache_path = path + "/cache.json"
+log_path = path + "/log.txt"
+
+# number of hours before refreshing cache
+cache_limit = os.getenv("cache_limit")
+
+# json key for the timestamp value
 json_cache_time_key = "cache_time"
 
+# request url for listing entities
 api_url = "https://kanka.io/api/1.0/campaigns/{id}/{endpoint}"
+
+# individual entity url
 entity_url = "https://kanka.io/en/campaign/{game}/{endpoint}/{entity}"
+
+# category url
 category_url = "https://kanka.io/en/campaign/{game}/{endpoint}"
+
+# dashboard url
 campaign_url = "https://kanka.io/en/campaign/{game}"
 
+# list of entity endpoints
 endpoints = [
+    "abilities",
     "calendars",
     "conversations",
     "characters",
@@ -44,7 +58,10 @@ endpoints = [
 
 
 def get_headers():
-    # api_token = keyring.get_password('kanka', getpass.getuser())
+    """
+    required headers for api calls
+    token is stored as workflow variable
+    """
     api_token = os.getenv("token")
     header = {
         "Authorization": "Bearer " + api_token,
@@ -54,6 +71,10 @@ def get_headers():
 
 
 def request_campaigns():
+    """
+    get campaign names and ids from server
+    unicode encoding sometimes gets messed up, so we clean that
+    """
     res = requests.get('https://kanka.io/api/1.0/campaigns', headers=get_headers())
     if res.status_code != 200:
         raise Exception(res.status_code)
@@ -66,6 +87,10 @@ def request_campaigns():
 
 
 def get_campaigns():
+    """
+    if cache exists, find the dashboards in it, extract name and id from the name and url respectively
+    if cache doesn't exist, get names and ids from server
+    """
     games = {}
     try:
         with open(cache_path, "r+") as cache:
@@ -113,13 +138,16 @@ class CampaignThread(threading.Thread):
 
 
 def get_all_entities():
+    """
+    get all campaigns and write them to cache.json
+    uses a separate thread for each campaign
+    """
     data = {}
     all_games = get_campaigns()
     threads = []
     outputs = []
 
     for (game, game_id) in all_games.items():
-        # data.update(get_campaign_entities(game_id))
         outputs.append({})
         threads.append(CampaignThread(game, game_id, outputs[-1]))
     for thread in threads:
@@ -140,6 +168,10 @@ def get_all_entities():
 
 
 def cached_recently(last_cached):
+    """
+    whether or not entities have been cached recently
+    recently is defined as "in the past X hours", where X = last_cached
+    """
     if not last_cached:
         return False
     now = datetime.datetime.now()
@@ -149,6 +181,9 @@ def cached_recently(last_cached):
 
 
 def need_to_cache():
+    """
+    true  if there is no cache or the cache hasn't been updated recently
+    """
     try:
         with open(cache_path, 'r') as cache:
             cached_data = json.load(cache)
@@ -160,16 +195,28 @@ def need_to_cache():
 
 
 def load_entities():
+    """
+    return {name:url} dictionary from cache, containing all entities in all campaigns
+    """
     with open(cache_path) as cache:
         return json.load(cache)["data"]
 
 
 def match_query(query, entities):
+    """
+    Find the closest matches to query among the loaded entity names
+
+    Results generally stop being relevant after the first 15-20,
+    but leaving it at 25 for good measure. Limit has very little effect on performance at these scales.
+    """
     matched_entities = process.extract(query, entities.keys(), limit=25)
     return matched_entities
 
 
 def alfred_output(matches, entities):
+    """
+    return the matched entities as alfred action items
+    """
     out = {"items": []}
     for (entity, _) in matches:
         item = {
@@ -187,6 +234,9 @@ def alfred_output(matches, entities):
 
 
 def main(query):
+    """
+    get all entities from the server if needed, then return the closest matches to user
+    """
     if need_to_cache():
         get_all_entities()
     entities = load_entities()
@@ -194,17 +244,31 @@ def main(query):
     alfred_output(matches, entities)
 
 
-def fail(error=None):
+def fail(query):
+    """
+    if something went wrong, write traceback to file and make an action item to open it
+    """
+    log = open(log_path, "a")
+    log.write("""timestamp: {time}
+query: {query}
+{trace}
+
+""".format(time=time.time(),
+           query=query,
+           trace=traceback.format_exc()))
+    log.close()
+
     out = {
         "items": [
             {
                 'uid': 'whoops',
                 'title': 'whoopsie',
-                'subtitle': 'copy this for traceback',
+                'type': 'file',
+                'subtitle': 'Select to open log file',
                 'icon': {
                     'path': ''
                 },
-                'arg': str(traceback.format_exc()),
+                'arg': log_path,
                 'autocomplete': 'whoopsie'
             }
         ]
@@ -217,7 +281,7 @@ if len(sys.argv) > 1:
     try:
         main(query)
     except Exception as e:
-        fail(e)
+        fail(query)
 
 # def old_get_all_entities():
 #     data = {}
