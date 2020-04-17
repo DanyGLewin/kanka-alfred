@@ -14,10 +14,9 @@ import requests
 # api user token
 token = os.getenv("token")
 
-# path where data will be cached
-path = os.getenv("workflow_path")
-cache_path = path + "/cache.json"
-log_path = path + "/log.txt"
+# path where data will be cached and errors logged
+cache_path = "cache.json"
+log_path = "log.txt"
 
 # number of hours before refreshing cache
 cache_limit = os.getenv("cache_limit")
@@ -114,7 +113,6 @@ class CampaignThread(threading.Thread):
         self.out = out
 
     def run(self):
-        print(self.campaign_id)
         header = get_headers()
         for endpoint in endpoints:
             request_url = api_url.format(id=self.campaign_id, endpoint=endpoint)
@@ -133,7 +131,6 @@ class CampaignThread(threading.Thread):
         pretty_dashboard = self.campaign_name + ' Dashboard'
         self.out[pretty_dashboard] = campaign_url.format(game=self.campaign_id)
 
-        print("Finished ", self.campaign_id)
         return self.out
 
 
