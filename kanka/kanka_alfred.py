@@ -27,19 +27,19 @@ campaign_url = "https://kanka.io/en/campaign/{game}"
 
 endpoints = [
     "calendars",
-    # "conversations",
+    "conversations",
     "characters",
-    # "dice_rolls",
+    "dice_rolls",
     "events",
-    # "families",
-    # "items",
+    "families",
+    "items",
     "journals",
     "locations",
     "notes",
-    # "organisations",
-    # "quests",
-    # "races",
-    # "tags"
+    "organisations",
+    "quests",
+    "races",
+    "tags"
 ]
 
 
