@@ -1,17 +1,9 @@
 # Kanka-alfred
-<<<<<<< HEAD
 [kanka.io](kanka.io) is an free to use tool for managing tabletop RPG campaigns and worlds. This is an Alfred 4 workflow for quick browsing and searching through your campaigns and entities.
 
 ## Requirements
 To use this Workflow you must have Alfred, and own a Powerpack license.
 This Workflow works on OSX 10.15 Catalina, though should work on any mac version if you have python 3.7 installed.
-=======
-Alfred 4 workflow for browsing Kanka campaigns
-
-## Requirements
-To use this Workflow you must have Alfred, and own a Powerpack license.
-This Workflow works on OSX 10.15 Catalina, and should work on any mac version if you have python 3.7 installed.
->>>>>>> c8daac7a7606bea5f3464c8615db1dcb78e87fe2
 
 ## Installation & Setup
 Download and run `Kanka-alfred-1.0.alfredworkflow`.
@@ -33,8 +25,4 @@ By default, the workflow caches all the entities from all your campaigns up to o
 ## TODO
 * Allow configuration of what entity types are included (to help with the API call limit)
 * Make decent UI for configuration
-<<<<<<< HEAD
 * Figure out auto-updating
-=======
-* Figure out auto-updating
->>>>>>> c8daac7a7606bea5f3464c8615db1dcb78e87fe2
