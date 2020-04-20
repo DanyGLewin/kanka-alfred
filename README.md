@@ -18,6 +18,8 @@ kk [query]
 ```
 Press <kbd>return</kbd> (↵) to open the selected page.
 
+If the script fails due to missing dependancies, run `kkconfig` in the alfred console, and it should install any that are missing.
+
 ## Configuration (WIP)
 By default, the workflow caches all the entities from all your campaigns up to once every 24 hours, when you call the workflow. If you want to increase or decrease this limit, you may change how many hours must pass between updates by changing the `cache_limit` workflow variable.
 
@@ -26,3 +28,4 @@ By default, the workflow caches all the entities from all your campaigns up to o
 * Allow configuration of what entity types are included (to help with the API call limit)
 * Make decent UI for configuration
 * Figure out auto-updating
+* Dependancy management
