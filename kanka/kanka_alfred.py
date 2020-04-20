@@ -1,5 +1,4 @@
 import datetime
-import dateutil.parser
 import json
 import os
 import sys
@@ -7,9 +6,6 @@ import threading
 import time
 import traceback
 import unicodedata
-
-from fuzzywuzzy import process
-import requests
 
 # api user token
 token = os.getenv("token")
@@ -259,14 +255,14 @@ query: {query}
         "items": [
             {
                 'uid': 'whoops',
-                'title': 'whoopsie',
+                'title': 'whoops, something went wrong',
                 'type': 'file',
                 'subtitle': 'Select to open log file',
                 'icon': {
                     'path': ''
                 },
                 'arg': log_path,
-                'autocomplete': 'whoopsie'
+                'autocomplete': 'whoops'
             }
         ]
     }
@@ -274,22 +270,14 @@ query: {query}
 
 
 if len(sys.argv) > 1:
-    query = ' '.join(sys.argv[1:])
     try:
-        main(query)
-    except Exception as e:
-        fail(query)
+        import dateutil.parser
+        from fuzzywuzzy import process
+        import requests
 
-# def old_get_all_entities():
-#     data = {}
-#     all_games = get_campaigns()
-#     for (game, game_id) in all_games.items():
-#         print(game)
-#         data.update(get_campaign_entities(game_id))
-#     return data
-#
-# def timer(f, *args, **kwargs):
-#     import time
-#     start = time.time()
-#     f(*args, **kwargs)
-#     return time.time() - start
+        query = ' '.join(sys.argv[1:])
+        main(query)
+    except ImportError:
+        fail("Imports")
+    except Exception:
+        fail(query)
